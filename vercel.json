@@ -11,6 +11,10 @@
         "src": "/(.*)",
         "dest": "app.py"
       }
-    ]
+    ],
+    "env": {
+      "PIP_NO_CACHE_DIR": "false",
+      "PIP_DISABLE_PIP_VERSION_CHECK": "true"
+    }
   }
   
